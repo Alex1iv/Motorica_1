@@ -196,7 +196,7 @@ def get_sensors_in_all_tests_plot(id, arg2, X_train, y_train, plot_counter):
                         showlegend=False # легенда загромождает картинку
         )
         
-        fig.update_layout(title=dict(text=f'Рис. {plot_counter}'+' - Сигнал датчиков во всех наблюдениях жеста ' + str(id), x=0.5, y=0.01, xanchor='center')
+        fig.update_layout(title=dict(text=f'Рис. {plot_counter} - Сигнал датчиков во всех наблюдениях жеста {id}', x=0.5, y=0.01, xanchor='center')
         )
 
         fig.show()
